@@ -21,6 +21,7 @@ return array(
     'connectionPoolParams' => array(
         'randomizeHosts' => true
     ),
-    'retries' => null
+    'retries' => null,
+	'hosts' => ['127.0.0.1:9200']
 
 );
